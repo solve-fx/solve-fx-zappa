@@ -6,8 +6,9 @@ import plotly.express as px
 import pandas as pd
 import numpy as np
 from datetime import date
+#import awswrangler as wr
 
-#df = pd.read_csv('s3://bucket-fxdata/gbpjpy_last100.csv')
+#df = wr.s3.read_csv('s3://bucket-fxdata/gbpjpy_last100.csv')
 
 ### Average Candle ###
 def create_avgcandle(flask_app):
