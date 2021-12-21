@@ -12,3 +12,6 @@ def index():
 @application.route('/api')
 def api():
     return {'hello' : 'world'}
+
+if __name__ == "__main__":
+    application.run(debug=True)
