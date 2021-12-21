@@ -6,6 +6,7 @@
         "role_name": "MyLambdaRole",
         "slim_handler": true,
         "runtime": "python3.6",
+        "memory_size": 1024,
         "s3_bucket": "zappa-duuzqewdn",
         "certificate_arn": "arn:aws:acm:us-east-1:964522707844:certificate/98f0eee1-745b-49ca-9b29-9afc268d7c91",
         "domain": "solve-fx.com"
