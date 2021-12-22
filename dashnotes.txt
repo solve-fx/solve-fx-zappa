@@ -1,9 +1,0 @@
-    <div class="embed-responsive" style="min-height: 200px">
-        <iframe
-        src="/dash/"
-                style="overflow-x: hidden; overflow-y: visible; overflow-x: hidden; position: absolute; width: 95%; height: 100%; background: transparent"
-       ></iframe>
-    </div>
-
-
-                          
